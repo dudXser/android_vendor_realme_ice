@@ -1,0 +1,9 @@
+# device specific syscalls
+# extension of services/mediacodec/minijail/seccomp_policy/mediacodec-seccomp-arm.policy
+#ifdef OPLUS_FEATURE_VIDEOLOGKIT
+#Yangwen@MULTIMEDIA.MEDIASERVER.PLAYER,20220615,for omx video dump
+unlinkat: 1
+mkdirat: 1
+flock: 1
+fchmod: 1
+#endif /*OPLUS_FEATURE_VIDEOLOGKIT*/

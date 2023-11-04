@@ -1,0 +1,21 @@
+// @file sns_monitor_sensor.proto
+//
+// Defines standard message types for the oppo interface
+//
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_std_sensor.proto";
+
+enum sns_monitor_sensor_msgid
+{
+    option (nanopb_enumopt).long_names = false;
+
+    SNS_OPLUS_MONITOR_SENSOR_MSGID_CONFIG = 1808;
+}
+
+// Data Message
+// Output data event generated 
+message sns_monitor_sensor_data
+{
+    required float monitor_info = 1;
+}

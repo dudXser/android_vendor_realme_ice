@@ -1,0 +1,25 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.HT.5.5-00911-LAHAINA-1.18114.4", 
+        "aop": "AOP.HO.3.0-00364-LAHAINA_E-1", 
+        "apps": "LA.UM.9.14.r1-18300-LAHAINA.0-1", 
+        "apps_LE": "LE.UM.4.3.1.r1-05000-genericarmv8-64.0-1", 
+        "apps_qssi": "LA.QSSI.11.0.r1-13300-qssi.0-1", 
+        "boot": "BOOT.MXF.1.0-00848-LAHAINA-1", 
+        "btfw_mp": "BTFW.MOSELLE.1.1.0-00409-MSL_PATCHZ-1", 
+        "cdsp": "CDSP.HT.2.5-00855-LAHAINA-1.18114.3", 
+        "common": "Kodiak.LA.1.1-00438-STD.PROD-1", 
+        "cpucp": "CPUCP.FW.1.0-00060-LAHAINA.EXT-1", 
+        "glue": "GLUE.KODIAK_LA.1.0-00197-NOOP_TEST-1", 
+        "modem": "MPSS.HI.4.3-01435-LC_ALL_PACK-1", 
+        "tz": "TZ.XF.5.11-00508-SPF.LAHAINA-1", 
+        "tz_apps": "TZ.APPS.2.0-00197-SPF.LAHAINA-1", 
+        "wlan": "WLAN.MSL.1.0.1-00665.1-QCAMSLSWPLZ-1"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Kodiak.LA.1.1-00438-STD.PROD-1", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2023-08-30 00:08:30"
+    }, 
+    "Version": "1.0"
+}
